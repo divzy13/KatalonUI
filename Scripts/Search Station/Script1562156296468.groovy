@@ -13,7 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Startsida/a_Sk resa'), 5)
 
-WebUI.navigateToUrl('https://www.skanetrafiken.se/')
+WebUI.setText(findTestObject('Object Repository/Page_Sknetrafiken - Sk resa/input_Frn_from'), 'almhult')
+
+CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Sk resa/span_lmhult station'), 5)
+
+WebUI.setText(findTestObject('Object Repository/Page_Sknetrafiken - Sk resa/input_Till_to'), 'malmo')
+
+CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Sk resa/span_Malm C'), 5)
+
+CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Sk resa/button_OK'), 5)
+
+CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Sk resa/input_Min_standard-btn find-trip'), 
+    5)
 
