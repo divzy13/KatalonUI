@@ -23,15 +23,15 @@ WebUI.setEncryptedText(findTestObject('Object Repository/Page_Sknetrafiken - Mit
 
 CustomKeywords.'com.JSclick.ClickusingJS'(findTestObject('Page_Sknetrafiken - Mitt konto/button_Logga in'), 5)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/div_Divya Raveendran'), 'Divya Raveendran')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/div_Divya Raveendran'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Jojo-tjnster'), 'Jojo-tjänster')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Jojo-tjnster'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Mina uppgifter'), 'Mina uppgifter')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Mina uppgifter'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Ersttning vid frsening'), 'Ersättning vid försening')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Ersttning vid frsening'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Erbjudanden'), 'Erbjudanden')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Erbjudanden'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementText(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Mina uppgifter'), 'Mina uppgifter')
+WebUI.verifyElementVisible(findTestObject('Page_Sknetrafiken - Mitt konto/h2_Mina uppgifter'), FailureHandling.STOP_ON_FAILURE)
 
